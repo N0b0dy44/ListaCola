@@ -7,7 +7,7 @@ public class ListaCola {
         do {
             op = Integer.parseInt(GeneralIO.lea("Menú\n"
                     + "1. Ingresar estudiante\n"
-                    + "2. Sacar estudiante\n"
+                    + "2. Eliminar estudiante\n"
                     + "3. Imprimir estudiantes\n"
                     + "0. Salir del programa"));
             switch (op) {
