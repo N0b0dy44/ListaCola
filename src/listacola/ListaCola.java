@@ -9,6 +9,7 @@ public class ListaCola {
                     + "1. Ingresar estudiante\n"
                     + "2. Eliminar estudiante\n"
                     + "3. Imprimir estudiantes\n"
+                    + "4. Buscar estudiante\n"
                     + "0. Salir del programa"));
             switch (op) {
                 case 1:
@@ -23,6 +24,9 @@ public class ListaCola {
                     break;
                 case 3:
                     ManejoCola.imp();
+                    break;
+                case 4:
+                    System.out.println("Por implementar");
                     break;
                 case 0:
                     GeneralIO.imp("Saliendo...");
